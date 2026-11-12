@@ -1,0 +1,8 @@
+node_modules/
+/frontend/dist/
+/frontend/dist-ssr/
+__debug_bin*
+
+.env
+.env.*
+!.env.example

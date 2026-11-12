@@ -1,0 +1,35 @@
+.connection-check {
+  width: min(100%, 36rem);
+  box-sizing: border-box;
+  margin: auto;
+  padding: 2rem 1.25rem;
+}
+
+.connection-check button {
+  padding: 0.65rem 1rem;
+  border: 1px solid var(--accent-border);
+  border-radius: 0.5rem;
+  font: inherit;
+  color: var(--text-h);
+  background: var(--accent-bg);
+  cursor: pointer;
+}
+
+.connection-check button:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+}
+
+.connection-check button:disabled {
+  opacity: 0.65;
+  cursor: wait;
+}
+
+.connection-status {
+  min-height: 6rem;
+  margin-top: 1rem;
+}
+
+.connection-status p + p {
+  margin-top: 0.35rem;
+}
